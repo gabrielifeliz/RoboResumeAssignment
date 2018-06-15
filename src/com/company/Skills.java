@@ -20,12 +20,12 @@ public class Skills {
 
     @Override
     public String toString() {
-    	StringBuilder educationInfo = new StringBuilder();
+    	StringBuilder skillsInfo = new StringBuilder();
     	
     	for (String s : skillsList) {
-    		educationInfo.append("- " + s + "\n");
+			skillsInfo.append("- " + s + "\n");
     	}
     	
-        return educationInfo.toString();
+        return skillsInfo.toString();
     }
 }

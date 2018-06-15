@@ -57,7 +57,7 @@ public class Person {
     public String toString() {
 
         return name + "\n" + emailAddress + "\n\nEducation:\n" + education
-        		+ "\n\nExperience:\n" + workExperience; //+ "\n\nSkills:\n" + skills;
+        		+ "Experience:\n" + workExperience + "Skills:\n" + skills;
     }
 
 }

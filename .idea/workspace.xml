@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564a51cf-f040-4d2c-a8c6-222c73bbf792" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RoboResumeAssignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RoboResumeAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RoboResumeAssignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Skills.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Skills.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/WorkExperience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/WorkExperience.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +20,8 @@
       <file leaf-file-name="RoboResumeAssignment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/RoboResumeAssignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="80" column="41" lean-forward="true" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+            <state relative-caret-position="204">
+              <caret line="60" column="55" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,8 +41,8 @@
       <file leaf-file-name="WorkExperience.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/WorkExperience.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" column="92" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
+            <state relative-caret-position="345">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -48,8 +50,8 @@
       <file leaf-file-name="Skills.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Skills.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="289">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -57,8 +59,8 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+            <state relative-caret-position="573">
+              <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -79,11 +81,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Skills.java" />
         <option value="$PROJECT_DIR$/src/com/company/Experience.java" />
         <option value="$PROJECT_DIR$/src/com/company/Education.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Person.java" />
         <option value="$PROJECT_DIR$/src/com/company/WorkExperience.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Skills.java" />
         <option value="$PROJECT_DIR$/src/com/company/RoboResumeAssignment.java" />
       </list>
     </option>
@@ -281,20 +283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Skills.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Education.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -304,15 +292,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/WorkExperience.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="92" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
+        <state relative-caret-position="345">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Skills.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/RoboResumeAssignment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="80" column="41" lean-forward="true" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+        <state relative-caret-position="204">
+          <caret line="60" column="55" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

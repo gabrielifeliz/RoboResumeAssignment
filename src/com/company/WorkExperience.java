@@ -18,7 +18,8 @@ public class WorkExperience {
 		if (title.equalsIgnoreCase("No experience")) {
 			workExperienceList.add("No experience");
 		} else {
-			workExperienceList.add(title + ",\n" + organizationName + ", " + datesAttended);
+			workExperienceList.add(title + ",\n" + organizationName + ", "
+					+ datesAttended + "\n" + duties);
 		}
 	}
 
@@ -30,7 +31,7 @@ public class WorkExperience {
 			if(s.equalsIgnoreCase("No experience"))
 				experienceInfo.append(" ");
 			else
-				experienceInfo.append(s + "\n\n");
+				experienceInfo.append(s + "\n");
 		}
 
 		return experienceInfo.toString();

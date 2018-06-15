@@ -13,7 +13,6 @@ public class RoboResumeAssignment {
                 title, organization, dates, duty, skills;
         String addEducation = "y", addExperience = "y",
                 addDuties = "y", addSkills = "y";
-        StringBuilder duties = new StringBuilder();
         int gradYear, dutyNum = 1, skillNum = 1;
 
         Person person = new Person();
@@ -58,10 +57,12 @@ public class RoboResumeAssignment {
             dates = keyboard.nextLine();
 
             addDuties = "y";
+            dutyNum = 1;
+            StringBuilder duties = new StringBuilder();
             while (addDuties.equalsIgnoreCase("y")) {
                 System.out.println("Duty " + dutyNum  + " > ");
                 duty = keyboard.nextLine();
-                duties.append("- Duty " + dutyNum + ", " + duty);
+                duties.append("- Duty " + dutyNum + ", " + duty + "\n");
                 
                 dutyNum++;
                 System.out.print("Add more duties (\"y\" or \"n\")? ");
@@ -74,20 +75,19 @@ public class RoboResumeAssignment {
             addExperience = keyboard.nextLine();
         }
 
-/*
+
         System.out.println("\nEnter one to twenty skills with rating:");
         while (addSkills.equalsIgnoreCase("y")) {
             System.out.print("Skill " + skillNum + " > ");
             skills = keyboard.nextLine();
-            person.setSkills(skills);
 
-            skillsList.add(person.getSkills().toString() + "\n");
+            person.setSkills(skills);
             
             System.out.print("Add more skills (\"y\" or \"n\")? ");
             addSkills = keyboard.nextLine();
             skillNum++;
         }
-		*/
+
         System.out.println("\n\n");
         System.out.println(person);
 
