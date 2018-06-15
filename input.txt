@@ -1,16 +1,27 @@
-gabriel feliz
+Gabriel I Feliz
 gabrielifeliz99@gmail.com
 
 Education:
-cs,
-mc, 2019
+AA in Computer Science,
+Montgomery College, 2019
 
-is,
-umbc, 2018
+Certificate in Java Developer,
+Montgomery College, 2019
+
+Certificate in Computer Programming,
+Montgomery College, 2019
 
 Experience:
+Math Tutor,
+Mathnasium, October 2017 - November 2017
+- Duty 1, Teach students from middle school to high school
+- Duty 2, Provide tutoring to small groups of students
+
+Math Tutor,
+Aristotle Circle, May 2017 - September 2017
+- Duty 1, Conduct private tutoring sessions to students
 
 Skills:
-- bilingual
-- hardworking
+- Bilingual
+- Basic SpringBoot applications
 

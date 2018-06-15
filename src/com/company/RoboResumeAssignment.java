@@ -17,7 +17,8 @@ public class RoboResumeAssignment {
                 title, organization, dates, duty, skills;
         String addEducation = "y", addExperience = "y",
                 addDuties = "y", addSkills = "y";
-        int gradYear, dutyNum = 1, skillNum = 1;
+        int gradYear, dutyNum = 1, skillNum = 1,
+                educationControl = 0, experienceControl = 0, skillsControl = 0;
 
         Person person = new Person();
         ArrayList<String> workExperienceList = new ArrayList<>();
@@ -41,7 +42,11 @@ public class RoboResumeAssignment {
             keyboard.nextLine();
 
             person.setEducation(degree, institution, gradYear);
+            educationControl++;
 
+            if (educationControl == 10) {
+                break;
+            }
             System.out.print("Add more education (\"y\" or \"n\")? ");
             addEducation = keyboard.nextLine();
         }
@@ -74,7 +79,11 @@ public class RoboResumeAssignment {
             }
 
             person.setWorkExperience(title, organization, dates, duties.toString());
+            experienceControl++;
 
+            if (experienceControl == 10) {
+                break;
+            }
             System.out.print("Add more experiences (\"y\" or \"n\")? ");
             addExperience = keyboard.nextLine();
         }
@@ -86,13 +95,17 @@ public class RoboResumeAssignment {
             skills = keyboard.nextLine();
 
             person.setSkills(skills);
-            
+            skillsControl++;
+
+            if (skillsControl == 20) {
+                break;
+            }
             System.out.print("Add more skills (\"y\" or \"n\")? ");
             addSkills = keyboard.nextLine();
             skillNum++;
         }
 
-        System.out.println("\n\n");
+        System.out.println("\n=============================================================");
         System.out.println(person);
 
         try {
