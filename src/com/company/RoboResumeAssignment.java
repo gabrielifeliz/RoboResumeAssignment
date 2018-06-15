@@ -1,6 +1,10 @@
 package com.company;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class RoboResumeAssignment {
@@ -90,6 +94,21 @@ public class RoboResumeAssignment {
 
         System.out.println("\n\n");
         System.out.println(person);
+
+        try {
+            // Create PrintWriter object to write to a file
+            PrintWriter writeOnFile = new PrintWriter("input.txt");
+            // Write content in myMap to the input.txt file using an enhanced for loop
+            writeOnFile.println(person);
+            // Close PrintWriter object to stop writing to input.txt
+            writeOnFile.close();
+
+            System.out.println("Resume successfully written on file");
+
+        } catch (FileNotFoundException e) {
+            // If the file does not exist, display a message to let the user know about it
+            System.out.println("File not found...");
+        }
 
         keyboard.close();
     }

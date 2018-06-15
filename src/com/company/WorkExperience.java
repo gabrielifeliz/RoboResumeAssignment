@@ -29,7 +29,7 @@ public class WorkExperience {
 
 		for (String s : workExperienceList) {
 			if(s.equalsIgnoreCase("No experience"))
-				experienceInfo.append(" ");
+				experienceInfo.append("\n");
 			else
 				experienceInfo.append(s + "\n");
 		}
